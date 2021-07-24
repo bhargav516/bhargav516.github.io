@@ -132,6 +132,19 @@ a, a:hover {
   border-color: #fff;
 }
 
+
+.btn.btn-outline-pill.btn-custom-red {
+  color: #fff;
+  border: 2px solid rgba(241, 9, 9, 0.5);
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.btn.btn-outline-pill.btn-custom-red:hover, .btn.btn-outline-pill.btn-custom-red:active, .btn.btn-outline-pill.btn-custom-red:focus {
+  border-color: #fff;
+}
+
 .btn.btn-bg-white--hover:hover {
   background-color: #fff;
   color: #000;
