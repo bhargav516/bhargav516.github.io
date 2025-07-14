@@ -1479,6 +1479,7 @@ span.error {
 
 .gsap-reveal {
   display: block;
+  border: 1px solid red;
   position: relative; }
   .gsap-reveal .cover {
     position: absolute;
@@ -1490,37 +1491,3 @@ span.error {
     height: 100%;
     border: 1px solid red;
     background: #000; }
-
-/* Skills Grid */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
-
-.skill-category {
-  background: #1c1c1c; /* Darker background for each category */
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.skill-category-title {
-  font-size: 1.5rem; /* Slightly larger title */
-  color: #D63447; /* Accent color for titles */
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #D63447; /* Accent border bottom */
-  padding-bottom: 0.5rem;
-}
-
-/* Adjust button styling within skills section if needed */
-.skills-grid .btn {
-  margin-bottom: 0.5rem; /* Space between buttons */
-  margin-right: 0.5rem; /* Space between buttons */
-  /* background-color: #333; /* Darker buttons */
-  /* border-color: #444; */
-}
-
-.skills-grid .gsap-reveal { /* Ensure reveal animations still work */
-  display: block; /* Or inline-block as appropriate */
-}
